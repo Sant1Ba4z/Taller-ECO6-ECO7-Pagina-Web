@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-family: inherit;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: inherit;
+    color: white;
+}
+
+body {
+  background-color: rgb(0, 157, 255);
+}
+
+#barra-opciones {
+    background-color: white;
+    color: white;
+    padding: 50px;
+  }
+  
+  #barra-opciones ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #barra-opciones li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #barra-opciones a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  #barra-opciones a:hover {
+    background-color: rgb(0, 157, 255);
+  }
+
+li {
+  display: inline-block;
+  display: block;
+  float: left;
+}

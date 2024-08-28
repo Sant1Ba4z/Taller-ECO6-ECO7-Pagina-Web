@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://cropaia.com/wp-content/uploads/Sugarcane-field.jpg);
+    background-size: cover;
+    background-position: center; /* Posiciona la imagen en el centro del fondo. */
+    background-repeat: no-repeat;
+}
+
+li img {
+    width: 200px; /* Ajusta el ancho de la imagen */
+    height: 50px; /* Ajusta la altura de la imagen */
+    margin-left: 20px; /* Agrega espacio a la derecha de la imagen */
+  }
+
+img {
+    display: inline-block;
+    display: block;
+    float: left
+}

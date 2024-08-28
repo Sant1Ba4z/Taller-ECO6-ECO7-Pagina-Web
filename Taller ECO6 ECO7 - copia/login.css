@@ -1,0 +1,56 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image:linear-gradient(to right,rgb(0, 157, 255),blue);
+  }
+  
+  /* Login form container */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;  /* Center the form horizontally */
+    padding: 20px;
+    border: 2px solid #ffbb00; /* Golden border */
+    border-radius: 5px;  /* Rounded corners */
+    background-color: #fff; /* White background */
+  }
+  
+  /* Labels */
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffbb00;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  /* Button*/
+  button[type="submit"] {
+    background-color: rgb(0, 157, 255);  /* Green background */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  button[type="submit"]:hover {
+    background-color: rgb(0, 157, 255);
+  }
+
+  img {
+    width: 400px; /* Ajusta el ancho de la imagen */
+    height: 130px; /* Ajusta la altura de la imagen */
+    margin-right: 50px; /* Agrega espacio a la derecha de la imagen */
+  }
